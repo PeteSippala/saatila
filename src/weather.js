@@ -5,7 +5,7 @@ import React from 'react';
 
 const API_URL = 'https://api.openweathermap.org/data/2.5/weather?';
 const ICON_URL = 'http://openweathermap.org/img/wn/';
-const API_KEY = '36d17c7f1d7f1887beb73eac1b76dea8';
+const API_KEY = '';
 
 export default function Weather({lat,lng}) {
     const [temp,setTemp] = useState(0);
