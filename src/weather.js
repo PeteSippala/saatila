@@ -14,7 +14,7 @@ export default function Weather({lat,lng}) {
     const [description,setDescription] = useState('');
     const [icon,setIcon] = useState('');
 
-useEffect((lat,lng) => {
+useEffect(() => {
     const address = API_URL +
     '&lat=' + lat +
     '&lon=' + lng +
